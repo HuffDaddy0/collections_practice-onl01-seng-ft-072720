@@ -18,7 +18,7 @@ end
 
 def swap_elements(array)
   saved = array[2]
-  array.each_with_index do |elemen , index|
+  new_array = array.each_with_index do |elemen , index|
     if index = 1
       element = array[2]
     end
@@ -27,6 +27,7 @@ def swap_elements(array)
     end
 
   end
+  new_array
 end
 
 def reverse_array(array)
