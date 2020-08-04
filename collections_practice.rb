@@ -17,7 +17,7 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  saved = [array[2],array[1]
+  saved = [array[2],array[1]]
   new_array = []
   array.each_with_index do |elemen , index|
     if index == 0
