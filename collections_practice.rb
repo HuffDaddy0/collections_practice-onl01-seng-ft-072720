@@ -23,7 +23,7 @@ def swap_elements(array)
     if index == 0
       new_array << element
     elsif index == 1
-      new_array << saved    
+      new_array << saved
   end
   new_array
 end
