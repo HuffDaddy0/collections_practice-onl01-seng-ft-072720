@@ -25,6 +25,7 @@ def swap_elements(array)
     elsif index == 1
       new_array << saved
   end
+end
   new_array
 end
 
