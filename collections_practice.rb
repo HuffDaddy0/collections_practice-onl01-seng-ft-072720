@@ -17,15 +17,13 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  saved = array[2]
-  new_array = array.each_with_index do |elemen , index|
-    if index = 1
-      element = array[2]
-    end
-    if index = 2
-      element = saved
-    end
-
+  saved = [array[2],array[1]
+  new_array = []
+  array.each_with_index do |elemen , index|
+    if index == 0
+      new_array << element
+    elsif index == 1
+      new_array << saved    
   end
   new_array
 end
