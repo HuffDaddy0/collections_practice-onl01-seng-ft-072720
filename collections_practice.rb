@@ -19,7 +19,7 @@ end
 def swap_elements(array)
   saved = [array[2],array[1]]
   new_array = []
-  array.each_with_index do |elemen , index|
+  array.each_with_index do |element , index|
     if index == 0
       new_array << element
     elsif index == 1
