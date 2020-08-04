@@ -24,7 +24,7 @@ def swap_elements(array)
     end
     if index = 2
       element = saved
-      
+
   end
 end
 
